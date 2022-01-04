@@ -78,5 +78,11 @@ h3{
 .exp-section{
     background-image:url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position:left
+    background-position:left;
+    margin-top: 100px;
+}
+footer{
+    margin-top: 200px;
+    text-align: center;
+    padding-bottom: 10px;
 }
