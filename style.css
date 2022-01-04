@@ -7,7 +7,7 @@ h1{
     font-weight: 600;
 }
 span{
-    color: #FFA500;
+    color: #ffa500;
 }
 .flex-section{
     display: flex;
@@ -37,4 +37,46 @@ h3{
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+}
+.dream-section{
+    margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right
+}
+.box{
+    box-shadow: -6px -5px 22px grey
+    
+}
+#exp1{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%; 
+    margin-right: 2.5%;
+    border-left: 8px solid;
+    border-image: linear-gradient(#FF9773,#FF664A); 
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#exp2{
+    width: 40%;
+    padding-left: 5%;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    border-left: 8px solid;
+    border-image: linear-gradient(#0027FF,#00E9FF); 
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.experience h2{
+    font-size: 33px;
+}
+.experience h3{
+    color: #ffa500;
+
+}
+.exp-section{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left
 }
