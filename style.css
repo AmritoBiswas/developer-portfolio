@@ -4,7 +4,7 @@ body{
 }
 h1{
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 600;
 }
 span{
     color: #FFA500;
@@ -14,10 +14,10 @@ span{
 }
 .half-width{
     width: 50%;;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 section img{
-    width: 80%;
+    width: 90%;
 }
 .welcome-section{
     background-image: url(images/top-banner.png);
@@ -25,5 +25,16 @@ section img{
 }
 h3{
     font-size: 21px;
+    font-weight: 700;
+}
+.welcome-paragraph{
     font-weight: 400;
+    color: #696981;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#FF936F,#FF6E50);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
 }
